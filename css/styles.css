@@ -81,7 +81,8 @@ body {
   nav h1 {
     color: #232222;
     padding: 1rem 0rem;
-    font-weight: var(--bold-font);
+    font-weight: var(--bolder-font);
+    font-size: larger;
   }
   
   nav a {
