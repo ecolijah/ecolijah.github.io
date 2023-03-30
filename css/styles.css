@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-head {
+/* head {
     font-family: 'Poppins', sans-serif;
     
 }
@@ -10,7 +10,7 @@ title{
 }
 body {
     font-family: 'Poppins', sans-serif;
-  }
+  } */
 
 
 /* Variables */
@@ -79,10 +79,10 @@ body {
   }
   
   nav h1 {
-    color: #232222;
+    color: #103825;
     padding: 1rem 0rem;
     font-weight: var(--bolder-font);
-    font-size: larger;
+    font-size: 64;
   }
   
   nav a {
@@ -137,7 +137,7 @@ body {
   /* Flexbox items text */
   .flexbox-container p {
     font-weight: var(--normal-font);
-    font-size: var(--font-sizereg);
+     font-size: var(--font-sizereg);
   }
   
   .flexbox-container h2,
@@ -151,6 +151,6 @@ body {
   }
   
   .flexbox-container h1 {
-    font-size: var(--font-sizebigger);
+    font-size: 64px; /* var(--font-sizebigger);*/
   }
   
