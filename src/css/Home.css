@@ -1,0 +1,38 @@
+#Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: beige;
+
+
+}
+
+h1 {
+    font-size: 27vh;
+    color: rgba(18, 77, 57, 0.952);
+    display: flex;
+    height: 3vh;
+    background-color: rgba(150, 127, 255, 0.781);
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    color: rgba(18, 77, 57, 0.884);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(255, 253, 127); */
+
+
+}
+
+p {
+    color: rgba(18, 77, 57, 0.884);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+
+}
