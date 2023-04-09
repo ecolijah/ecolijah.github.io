@@ -1,0 +1,55 @@
+/* navbar */
+.linkbox {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .linkbox ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .linkbox li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .linkbox a {
+    text-decoration: none;
+    color: #add8e6;
+  }
+  
+  .linkbox a:hover {
+    text-decoration: underline;
+  }
+  
+  .linkbox .top-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .linkbox .bottom-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
