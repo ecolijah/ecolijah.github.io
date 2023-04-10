@@ -1,57 +1,74 @@
 /* navbar */
 .linkbox {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 100px;
-    height: 100px;
-    background-color: inherit;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px;
-  }
-  
-  .linkbox ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    /* background-color: rgb(63, 173, 122); */
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-  }
-  
-  .linkbox li {
-    
-    margin: 0;
-    padding: 0;
-  }
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  background-color: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  z-index: 999; /* set a high z-index value */
+}
 
+.linkbox ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  /* background-color: rgb(63, 173, 122); */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
 
-  
-  .linkbox .top-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    /* background-color: aliceblue; */
-  }
-  
-  .linkbox .bottom-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .linkbox .imgLinks {
-    height: 40px;
-    width: 40px;
-    color: rgba(150, 127, 255, 0.781);
+.linkbox li {
+  margin: 0;
+  padding: 0;
+}
 
-  }
+.linkbox .top-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: aliceblue; */
+}
+
+.linkbox .bottom-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.linkbox .imgLinks {
+  /* color code: 967FFF */
+  height: 40px;
+  width: 40px;
+  opacity: 0.5; /* make images more transparent by default */
+  transition: opacity 0.5s ease;
+  position: relative; /* add position relative for tooltip */
+}
+
+.linkbox .imgLinks:hover {
+  opacity: 1; /* set opacity back to 1 on hover */
+  cursor: pointer;
+}
+
+.linkbox .imgLinks:hover::after {
+  content: "hi";
+  background-color: #333;
+  color: #b65f5f;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}

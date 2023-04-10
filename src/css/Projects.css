@@ -14,4 +14,11 @@
     /* background-color: rgba(150, 127, 255, 0.781); */
     align-items: center;
     justify-content: center;
+    transition: opacity 0.5s ease;
+    cursor: pointer;
+
+}
+
+.Projects h1:hover {
+    opacity: 0.8;
 }

@@ -28,7 +28,7 @@ export default function StaticLinks() {
       <ul className='top-links'>
 
         <li>
-          <img className='imgLinks'
+          <img className='imgLinks imgLinks-1'
             src={Github_icon} 
             alt="gh" 
             onClick={GitHub_buttonHandler}
@@ -36,7 +36,7 @@ export default function StaticLinks() {
         </li>
 
         <li>
-          <img className='imgLinks'
+          <img className='imgLinks imgLinks-2'
             src={LinkedIn_icon} 
             alt="li" 
           />
@@ -46,14 +46,14 @@ export default function StaticLinks() {
       <ul className='bottom-links'>
 
         <li>
-          <img className='imgLinks'
+          <img className='imgLinks imgLinks-3'
             src={Resume_icon} 
             alt="cv" 
           />
         </li>
 
         <li>
-          <img className='imgLinks'
+          <img className='imgLinks imgLinks-4'
             src={Spotify_icon} 
             alt="sp" 
             onClick={Spotify_buttonHandler}
