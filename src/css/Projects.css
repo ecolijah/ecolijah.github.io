@@ -1,0 +1,17 @@
+.Projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: beige;
+}
+
+.Projects h1 {
+    font-size: 21vh;
+    color: rgba(18, 77, 57, 0.952);
+    display: flex;
+    height: 3vh;
+    /* background-color: rgba(150, 127, 255, 0.781); */
+    align-items: center;
+    justify-content: center;
+}
