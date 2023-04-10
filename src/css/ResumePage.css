@@ -1,7 +1,21 @@
 .resume-main-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+
+    height:250vh;
     background-color: beige;
 }
+
+.pdf-container {
+    display: flex;
+    justify-content: center;
+    /* height: 40vh; */
+    /* background-color: aqua; */
+  }
+
+.actualpdf {
+    background-color: inherit;
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+  
