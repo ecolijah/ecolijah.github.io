@@ -8,7 +8,7 @@ import Spotify_icon from '..//assets/icons/icons8-spotify-50.png'
 export default function StaticLinks() {
 
   const LinkedIn_buttonHandler = () => {
-    window.open("", "_blank");
+    window.open("https://www.linkedin.com/in/elijah-lopez-65b809238/", "_blank");
   };
 
   const GitHub_buttonHandler = () => {
