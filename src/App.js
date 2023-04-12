@@ -15,10 +15,15 @@ function App() {
 
       <div className='container'>
         <StaticLinks />
-        <Home />
+        {/* <Home />
         <About />
-        <Projects />
+        <Projects /> */}
         <Routes>
+          {/* home page comonents */}
+          <Route path='/' element= {<Home/>}/>
+          {/* <Route path='/' element= {<About/>}/>
+          <Route path='/' element= {<Projects/>}/> */}
+          {/* non home page  */}
           <Route path='/resume' element={<ResumePage/>}/>
         </Routes>
         

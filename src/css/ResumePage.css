@@ -1,21 +1,23 @@
 .resume-main-container {
     display: flex;
     justify-content: center;
-
-    height:250vh;
+    height: 100%;
     background-color: beige;
-}
-
-.pdf-container {
+  }
+  
+  .pdf-container {
     display: flex;
     justify-content: center;
-    /* height: 40vh; */
-    /* background-color: aqua; */
+    align-items: center;
+    height: fit-content; /* or height: fit-content; */
   }
-
-.actualpdf {
-    background-color: inherit;
-    /* display: flex; */
-    /* flex-direction: row; */
-}
+  
+  .document {
+    display: flex;
+    width: 100%;
+  }
+  
+  .actualpdf {
+    width: 100%;
+  }
   

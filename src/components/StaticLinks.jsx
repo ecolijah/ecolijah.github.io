@@ -20,8 +20,8 @@ export default function StaticLinks() {
   };
 
   const Resume_buttonHandler = () => {
-    // window.open("", "_blank");
-    history.push("/resume")
+    //window.open("/resume", "_blank");
+    // history.push("/resume")
   };
 
   const Spotify_buttonHandler = () => {

@@ -1,21 +1,27 @@
-#Home {
+.Home {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     background-color: beige;
-
+    flex-direction: column;
 
 }
 
+.greeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: beige;
+}
 .greeting h1 {
-    font-size: 27vh;
+    font-size: 30vh;
     color: rgba(18, 77, 57, 0.952);
     display: flex;
-    
     height: 3vh;
     background-color: rgba(150, 127, 255, 0.781);
-    
     align-items: center;
     justify-content: center;
     transition: opacity 0.7s ease;
@@ -26,13 +32,16 @@
     opacity: 0.8;
 }
 
+.greeting h1:first-child {
+    margin-bottom: -1px;
+  }
+  
+
 .greeting h2 {
     color: rgba(18, 77, 57, 0.884);
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: rgb(255, 253, 127); */
-
 
 }
 
@@ -43,4 +52,56 @@
     justify-content: center;
     /* background-color: aquamarine; */
 
+}
+
+.About {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: beige;
+    
+}
+
+.About h1 {
+    font-size: 21vh;
+    color: rgba(18, 77, 57, 0.952);
+    display: flex;
+    height: 3vh;
+    /* background-color: rgba(150, 127, 255, 0.781); */
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.5s ease;
+    cursor: pointer;
+
+
+}
+
+.About h1:hover {
+    opacity: 0.8;
+}
+
+.Projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: beige;
+}
+
+.Projects h1 {
+    font-size: 21vh;
+    color: rgba(18, 77, 57, 0.952);
+    display: flex;
+    height: 3vh;
+    /* background-color: rgba(150, 127, 255, 0.781); */
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.5s ease;
+    cursor: pointer;
+
+}
+
+.Projects h1:hover {
+    opacity: 0.8;
 }
