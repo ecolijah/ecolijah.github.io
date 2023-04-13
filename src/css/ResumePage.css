@@ -1,0 +1,23 @@
+.resume-main-container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: beige;
+  }
+  
+  .pdf-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content; /* or height: fit-content; */
+  }
+  
+  .document {
+    display: flex;
+    width: 100%;
+  }
+  
+  .actualpdf {
+    width: 100%;
+  }
+  

@@ -11,8 +11,8 @@ export default function About() {
   };
 
   return (
-    <div id='About' className='aboutme'>
-      <h1 onClick={aboutMe_pageHandler}>about me</h1>
+    <div className='About'>
+      <h1>about me</h1>
     </div>
   )
 }
