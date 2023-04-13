@@ -44,6 +44,7 @@ export default function StaticLinks() {
           <img className='imgLinks'
             src={LinkedIn_icon} 
             alt="li" 
+            onClick={LinkedIn_buttonHandler}
           />
         </li>
 
